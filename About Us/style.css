@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+header{
+    background: #6B0606;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+header p {
+    font-size: 0.7rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.grid-con{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.navA {
+  padding: 30px;
+}
+
+.navA img{
+  width: 20px;
+}
+
+.navB {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.navB a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #413c3c;
+}
+
+.navB a:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+.navB img {
+  width: 50px;
+}
+
+.navC {
+  padding: 30px;
+  display: flex;
+  justify-self: end;
+}
+
+.navC img{
+  width: 20px;
+  margin-left: 10px;
+}
+
+.Beauty {
+  display: flex;
+  padding: 60px;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../img/icons/Big\ Lotus.png');
+  background-size: 190px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Beauty img {
+  width: 25%;
+  padding-top: 30px;
+}
+
+.mainImg {
+  max-width: 1200px;
+  width: 100%;
+  height: 450px;
+}
+
+.article {
+  text-align: center;
+  height: 300px;
+}
+
+.bg-text {
+  color: #413c3c;
+  height: 100px;
+}
+
+.bg-text h2{
+  color: #6B0606;
+  font-size: 1.9rem;
+}
+
+.small-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-txt p {
+  width: 40%;
+  text-align: center;
+  gap: 30px;
+}
+
+.wh-container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  height: 600px;
+}
+
+.rdtxt {
+  background: #DFBFA8;
+  text-align: center;
+  color: #413c3c;
+  height: 250px;
+}
+
+.rdtxt h2 {
+  color: #6B0606;
+  font-weight: 1.9rem;
+}
+
+.Vid {
+  background-color: #fff;
+  height: 200px;
+}
+
+.child-vid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child-vid video {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  bottom: 190px;
+}
+
+.flower {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  height: 600px;
+}
+
+.child-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child-flow img{
+  height: 500px;
+  width: 350px;
+}
+
+.textFlow {
+  width: 30%;
+  color: #413c3c;
+}
+
+.textFlow h2{
+  color: #6B0606;
+  font-size: 1.6rem;
+  font-family: 'Cactus Classical Serif';
+  width: 50%;
+}
+
+.textFlow button {
+  background-color: #6B0606;
+  border: none;
+  height: 30px;
+  width: 33%;
+  color: #fff;
+}
+
+.logo {
+  background-color:#DFBFA8;
+  height: 150px;
+}
+
+.logoI {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  gap: 10%;
+  justify-content: center;
+}
+
+.logoI img {
+  position: relative;
+  top: 40px;
+}
+
+.child-con{
+  text-align: center;
+  color: #413c3c;
+  height: 270px;
+}
+
+.child-con h2{
+  color: #6B0606;
+  font-family: 'Cactus Classical Serif';
+  font-size: 1.8rem;
+  height: 35px;
+  padding-top: 40px;
+}
+
+.OurTeam {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 30px;
+}
+
+.OurTeam img:nth-child(1) {
+  width: 75%;
+}
+
+.Move{
+  position: relative;
+  bottom: 60px;
+}
+
+.cardTeam {
+  text-align: center;
+}
+
+.transparent{
+  height: 50%;
+  width: 100%;
+  max-width: 1400px;
+  background-color: #DFBFA8;
+}
+
+.transparent img {
+  width: 180px;
+}
+
+.transparent img:nth-child(1){
+  display: flex;
+  justify-content: end;
+}
+
+.percent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6B0606;
+}
+
+.child-percent {
+  height: 50%;
+  width: 50%;
+}
+
+.Blog {
+  text-align: center;
+  color: #413c3c;
+  height: 200px;
+  font-size: 1rem;
+}
+
+.Blog h2 {
+  font-family: 'Cactus Classical Serif';
+  color: #6B0606;
+  font-size: 1.9rem;
+  padding-top: 60px;
+}
+
+.main-Blog {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.child-blog {
+  height: 60%;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.card-blog img:nth-child(1) {
+  height: 300px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.card-blog img:nth-child(2) {
+  position: relative;
+  bottom: 80px;
+}
+.child-blog p {
+  position: relative;
+  bottom: 60px;
+}
+
+.child-blog p:nth-child(2) {
+  color: #413c3c;
+}
+
+.child-blog p:nth-child(4) {
+  color: #6B0606;
+}
+
+footer {
+  background-color: #DFBFA8;
+  bottom: 0;
+  width: 100%;
+  background-image: url('../img/Great\ Lotus.png');
+  background-size: 257px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-elem {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer-elem .images{
+  width: 50px;
+  position: relative;
+  top: 20px;
+}
+
+.lasman {
+  height: 40px;
+}
+
+.footer-elem p{
+  color: #726a6a;
+  height: 50%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.Ficons img{
+  width: 20px;
+  padding: 10px;
+}
+
+.Copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.Copyright p{
+  color: #ffffff8c;
+  font-size: 0.8rem;
+}
+
+
+.Copyright img {
+  height: 20px;
+}
